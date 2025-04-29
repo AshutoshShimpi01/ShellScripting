@@ -82,3 +82,23 @@ fi
 #!/bin/bash
 It's called a shebang, and it tells the system to use Bash to run the script.
 
+
+--CODE--
+#!/bin/bash
+name="Ashu"
+echo "Hello, $name!"
+a=5
+b=3
+sum=$((a+b))
+echo "sum is $sum"
+
+echo "Enter Your Name"
+read name
+echo "Hi, $name!"
+
+--OutPut--
+Hello, Ashu!
+sum is 8
+Enter Your Name
+Ashu
+Hi, Ashu!
